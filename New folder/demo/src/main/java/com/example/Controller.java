@@ -9,6 +9,6 @@ public class Controller {
 	
 	@RequestMapping("/home")
 	public String hello(){
-		return "Hello WOrld to slow";
+		return "Hello WOrld ";
 	}
 }
