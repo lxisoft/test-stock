@@ -14,6 +14,6 @@ public class Controller {
 
 	@RequestMapping("/new")
 	public String stock(){
-		return "implementing stock ";
+		return "implementing stock";
 	}
 }
