@@ -11,4 +11,9 @@ public class Controller {
 	public String hello(){
 		return "Hello WOrld ";
 	}
+
+	@RequestMapping("/new")
+	public String stock(){
+		return "implementing stock ";
+	}
 }
